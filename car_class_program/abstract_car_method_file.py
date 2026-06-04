@@ -1,14 +1,18 @@
-from abc import ABC,abstractmethod
+from abc import ABC, abstractmethod
 
 class Car(ABC):
-    def __init__(self, year_model, make, speed):
-        pass
-
-    def accelerate():
-        pass
-
-    def brake():
+    @abstractmethod
+    def __init__(self, year_model, make, speed=0):
         pass
     
-    def get_speed():
+    @abstractmethod
+    def accelerate(self):
+        pass
+
+    @abstractmethod
+    def brake(self):
+        pass
+    
+    @abstractmethod
+    def get_speed(self):
         pass
