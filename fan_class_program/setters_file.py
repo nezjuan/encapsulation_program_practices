@@ -1,4 +1,4 @@
-class Setters():
+class Setters:
     def set_speed(self, speed):
         self.__speed= speed
 
@@ -8,5 +8,5 @@ class Setters():
     def set_color(self, color):
         self.__color= color
   
-    def get_on_status(self, on_status):
+    def set_on_status(self, on_status):
         self.__on_status= on_status

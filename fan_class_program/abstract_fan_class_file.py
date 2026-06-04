@@ -1,6 +1,6 @@
 from abc import ABC,abstractmethod
 
-class Fan():
+class Fan(ABC):
     slow=1
     medium=2
     fast=3
@@ -23,14 +23,14 @@ class Fan():
         pass
 
     @abstractmethod
-    def set_speed(self):
+    def set_speed(self,speed):
         pass
     @abstractmethod
-    def set_radius(self):
+    def set_radius(self,radius):
         pass
     @abstractmethod
-    def set_color(self):
+    def set_color(self, color):
         pass
     @abstractmethod
-    def get_on_status(self):
+    def set_on_status(self, on_status):
         pass
