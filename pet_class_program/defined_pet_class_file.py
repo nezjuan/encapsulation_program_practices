@@ -18,10 +18,10 @@ class PetClass(AbstractPetClass):
     def get_animal_type(self):
         return self.__animal_type
 
-    def get_age(self, age):
+    def set_age(self, age):
         self.__age=age
 
-    def set_age(self):
+    def get_age(self):
         return self.__age
     
     def __str__(self):
