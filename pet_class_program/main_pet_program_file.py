@@ -9,4 +9,4 @@ pet_info = PetClass(pet_name, pet_type, pet_age)
 print(f"\n[Your Pet's Info]" \
 f"\n[Pet Name]: {pet_info.get_name()}" \
 f"\n[Type]: {pet_info.get_animal_type()}" \
-f"\n[Age]: {pet_info.get_age()}")
+f"\n[Age]: {pet_info.get_age()} Years Old")
